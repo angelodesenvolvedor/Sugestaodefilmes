@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.movies-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px; /* Largura fixa para os cartões */
+}
+
+.movie-img {
+    width: 150px; /* Definindo uma largura específica para a imagem */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
